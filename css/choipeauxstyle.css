@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    background-image: url('../assets/bighat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.choixpeau {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+button {
+    width: 55%;
+    height: 60%;
+    padding-bottom: 500px;
+    z-index:  -1;
+}
+
+#bulle {
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.text{
+    position: absolute;
+    top: 50px;
+    left: 265px;
+    max-width: auto;
+}
+
+img {
+    max-width: 65%;
+    margin-left: 100px;
+}
