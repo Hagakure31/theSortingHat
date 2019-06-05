@@ -7,7 +7,6 @@ function randomize(){
 
 
 const input = document.getElementById('button');
-const bulle = document.getElementById('bulle');
 const house = document.getElementById('houseNum');
 
 // fonction pour rendre le bouton fonctionnel 
