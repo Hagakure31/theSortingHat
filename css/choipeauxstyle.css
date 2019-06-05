@@ -15,22 +15,30 @@ button {
     width: 55%;
     height: 60%;
     padding-bottom: 500px;
-    z-index:  -1;
+    opacity: 0;
 }
 
-#bulle {
+#bullecontenaire {
     border: 1px solid black;
     width: fit-content;
 }
 
 .text{
     position: absolute;
-    top: 50px;
-    left: 265px;
+    position: absolute;
+    top: 60px;
+    left: 195px;
     max-width: auto;
+    width: fit-content
 }
 
 img {
     max-width: 65%;
     margin-left: 100px;
+}
+
+h1 {
+    position: absolute;
+    left: 275px;
+    bottom: 500px;
 }
